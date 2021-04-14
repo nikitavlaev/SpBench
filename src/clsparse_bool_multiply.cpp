@@ -190,7 +190,7 @@ namespace benchmark {
         }
 
         void setupIteration(size_t experimentIdx, size_t iterationIdx) override {
-            clsparseInitCsrMatrix(&R);
+            clsparseInitBoolCsrMatrix(&R);
         }
 
         void execIteration(size_t experimentIdx, size_t iterationIdx) override {
