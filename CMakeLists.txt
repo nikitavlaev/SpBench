@@ -106,7 +106,7 @@ if (BENCH_WITH_CLSPARSE)
 
     add_executable(clsparse_basic src/clsparse_basic.cpp)
     add_executable(clsparse_mult src/clsparse_multiply.cpp)
-    add_executable(clsparse_mult src/clsparse_bool_multiply.cpp)
+    add_executable(clsparse_bool_mult src/clsparse_bool_multiply.cpp)
     list(APPEND CLSPARSE_TARGETS clsparse_basic clsparse_mult clsparse_bool_mult)
 
     set(clSPARSE_PATH ${CMAKE_BINARY_DIR}/thirdparty/clSPARSE/clSPARSE-build)
