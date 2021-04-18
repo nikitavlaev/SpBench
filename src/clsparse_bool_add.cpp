@@ -34,7 +34,7 @@
 #define BENCH_DEBUG
 
 namespace benchmark {
-    class Multiply: public BenchmarkBase {
+    class Add: public BenchmarkBase {
     public:
 
         Add(int argc, const char** argv) {
